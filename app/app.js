@@ -55,8 +55,6 @@ gsap.to("#what", {
 
 
 let mm = gsap.matchMedia();
-
-
 mm.add("(max-width: 576px)", () => {
     gsap.to("#about", {
         x: '55vw',

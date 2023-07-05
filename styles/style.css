@@ -7,13 +7,13 @@
 
 @font-face {
     font-family: 'Causten';
-    src: url(fonts/Causten-Black.otf);
+    src: url(../fonts/Causten-Black.otf);
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Causten';
-    src: url(fonts/Causten-Medium.otf);
+    src: url(../fonts/Causten-Medium.otf);
     font-weight: normal;
     font-style: normal;
 }

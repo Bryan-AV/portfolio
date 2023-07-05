@@ -26,7 +26,7 @@ console.log(w);
       trigger: "#about",
       start: "top 40%",
       end: "top 40%",
-      markers: true,
+      // markers: true,
       scrub: 2
     }
   });

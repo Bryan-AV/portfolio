@@ -762,7 +762,7 @@ padding-top: 5px;
 
 }
 
-@media screen and (max-width: 826px) {
+@media screen and (max-width: 767px) {
   .logo{
     display: none;
     width: 100px;

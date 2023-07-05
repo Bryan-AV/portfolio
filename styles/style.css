@@ -675,7 +675,7 @@ padding-top: 5px;
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) {
 
   .title-left, .title-right{
     font-size: 1.8rem;
@@ -749,15 +749,15 @@ padding-top: 5px;
   }
 
   .side-left, .side-right, .side-left-about, .side-right-about, .side-left-what, .side-right-what, .side-left-skills, .side-right-skills, .side-left-projects-red, .side-right-projects-red, .separator-left-border, .side-left-projects-yellow, .side-right-projects-yellow, .separator-right-border, .side-left-projects-blue, .side-right-projects-blue, .side-left-projects-red2, .side-right-projects-red2, .side-left-projects-yellow2, .side-right-projects-yellow2, .side-right-behance, .side-left-behance, .side-left-contact, .side-right-contact{
-    flex: 0 0 200px;
+    flex: 0 0 100px;
   }
 
   .title-left{
-    margin-left: 195px;
+    margin-left: 95px;
   }
 
   .title-right{
-    margin-right: 195px;
+    margin-right: 95px;
   }
 
 }

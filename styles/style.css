@@ -993,6 +993,28 @@ header {
 
 }
 
+@media screen and (max-width: 728px) {
+
+  .about-center {
+    flex-direction: column;
+  }
+
+  .img-me {
+    border-right: none;
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+
+  .txt-about {
+    border-top: 5px solid black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+
+}
+
 
 @media screen and (max-width: 576px) {
 
@@ -1093,6 +1115,8 @@ header {
   .txt-about {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 0;
+    border-top: none;
   }
 
 

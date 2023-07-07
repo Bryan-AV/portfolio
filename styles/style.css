@@ -28,6 +28,7 @@ html {
   scroll-padding-top: 80px;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scroll-padding-top: 100px;
 }
 
 
@@ -53,6 +54,11 @@ p {
   width: 250px;
   text-align: center;
 
+}
+
+.logo:hover{
+  background-color: black;
+  cursor: pointer;
 }
 
 .logo-responsive {
@@ -123,6 +129,10 @@ nav {
   z-index: 1 !important;
 }
 
+/* #navLinks ul{
+  margin: auto;
+} */
+
 header {
   margin-bottom: 104px;
 }
@@ -136,11 +146,24 @@ header {
   text-align: center;
   align-self: flex-end;
   font-size: 1.5rem;
+  
 }
 
 .button:hover {
   background-color: black;
   color: var(--background-white);
+  cursor: pointer;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
   cursor: pointer;
 }
 
@@ -792,7 +815,28 @@ header {
 
 }
 
+@media screen and (max-width:787px) {
+  .logo{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 180px;
+  }
+
+  .icons-nav{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 180px;
+  }
+  
+}
+
 @media screen and (max-width: 767px) {
+
+  html{
+    scroll-padding-top: 77px;
+  }
+
+
   .logo {
     display: none;
     width: 100px;
@@ -803,11 +847,17 @@ header {
   .logo-responsive {
     display: block;
     width: 100px;
-
+    text-decoration: none !important;
   }
 
   .icons-nav {
     display: none;
+  }
+
+  #navbar .nav-link:hover {
+    background-color: black;
+    color: var(--background-white);
+    text-decoration: none;
   }
 
   .custom-container {

@@ -1,6 +1,25 @@
+// Closes navBar when is open
+let navbarLinks = document.querySelectorAll(".navbar-nav .nav-link");
+let navbarCollapse = document.querySelector(".navbar-collapse");
 
+navbarLinks.forEach(function(navbarLink) {
+  navbarLink.addEventListener("click", function() {
+    navbarCollapse.classList.remove("show");
+  });
+});
+
+
+
+let logoBtn = document.querySelector(".logo-responsive");
+logoBtn.addEventListener("click", function() {
+  navbarCollapse.classList.remove("show");
+}); 
+
+
+
+
+// Title Animations
 gsap.registerPlugin(ScrollTrigger);
-
 
 let mm = gsap.matchMedia();
 let w = window.innerWidth/2;
